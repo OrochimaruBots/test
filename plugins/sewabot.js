@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let pepe = 'http://gentleninja.com/reviews/wp-content/uploads/2017/05/Bot-development-companies.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
-  let aine = '6283893344561@s.whatsapp.net'
+  let aine = '6285691686671@s.whatsapp.net'
   let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let c = pickRandom([a, b])
@@ -35,12 +35,12 @@ PERPANJANG 10K
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'019191727299'}]}],
-  headerImage: { productId: '019191727299',
+  products:[{productId:'5105846569524379'}]}],
+  headerImage: { productId: '5105846569524379',
   jpegThumbnail: baper },
-  businessOwnerJid: `6283893345561@s.whatsapp.net`
+  businessOwnerJid: `6285691686671@s.whatsapp.net`
   },
-  footerText: 'https://m.youtube.com/c/KROZIRS',
+  footerText: 'https://chat.whatsapp.com/CFXGijTda8t4IjXskMrObu',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
