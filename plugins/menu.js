@@ -49,8 +49,8 @@ const defaultMenu = {
 ➤• *𝘿𝙖𝙮:* %week
 ➤• *𝙏𝙖𝙣𝙜𝙜𝙖𝙡:* %date
 ➤• *𝙍𝙪𝙣𝙏𝙞𝙢𝙚:* %uptime (%muptime)
-➤• *XznBotz-MD II*
-https://youtube.com/channel/UCTan41uoODwP2uU0ORuoy3w
+➤• *チカボット「Chika 」*
+https://chat.whatsapp.com/CFXGijTda8t4IjXskMrObu
 
 ⚠️ *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
 
@@ -210,7 +210,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu2|help|\?)$/i
 
 handler.exp = 3
 
