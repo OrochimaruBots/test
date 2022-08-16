@@ -49,7 +49,7 @@ const defaultMenu = {
 ➤• *𝘿𝙖𝙮:* %week
 ➤• *𝙏𝙖𝙣𝙜𝙜𝙖𝙡:* %date
 ➤• *𝙍𝙪𝙣𝙏𝙞𝙢𝙚:* %uptime (%muptime)
-➤• *チカボット「Chika 」*
+➤• *チカボット「Yamato」*
 https://chat.whatsapp.com/CFXGijTda8t4IjXskMrObu
 
 ⚠️ *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
@@ -59,7 +59,7 @@ https://chat.whatsapp.com/CFXGijTda8t4IjXskMrObu
   body: '│ ○ %cmd %islimit %isPremium',
   footer: '▣────────────⬣\n',
   after: `*Made by ♡*
-*%npmname* | %version
+*yamato* | %version
 ${'```%npmdesc```'}
 `,
 }
@@ -163,7 +163,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://github.com/XzenzBotz', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://github.com/OrochimaruBotz', 'Website', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -181,7 +181,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    url: 'https://github.com/OrochimaruBotz'
                                 }
                             }, {
                                 quickReplyButton: {
